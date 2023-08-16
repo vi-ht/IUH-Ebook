@@ -1,0 +1,38 @@
+.insideContainer {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4E49D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleContainer {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #8482FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outsideContainer {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgba(132, 130, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    /* margin-top: 100vh; */
+    margin-right: 64px;
+    bottom: 64px;
+    right: 0;
+    place-self: end;
+    white-space: nowrap;
+
+}

@@ -1,0 +1,48 @@
+.buttonContainer {
+    width: 40px;
+    height: 21px;
+    border:2.5px solid #4E49D6;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+.buttonContainerDark {
+    width: 40px;
+    height: 21px;
+    border: 2.5px solid #ffffff;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+.iconLight {
+    background-color: #4E49D6;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.5px;
+    left: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.animLight {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.5px;
+    left: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(20px);
+    background-color: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+
