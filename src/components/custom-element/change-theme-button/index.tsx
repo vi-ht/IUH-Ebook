@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Styles from "./style.module.css"
-import { ThemeContext } from '@/app/layout';
+import ThemeContext  from '@/hook/ThemeContext';
 
 
 export default function ChangeThemeButton() {

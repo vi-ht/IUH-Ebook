@@ -1,14 +1,6 @@
-"use client"
-import styles from './page.module.css'
-import Main from '@/components/main'
+import HomeView from '@/view/home'
+import React from 'react'
 
-
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <Main />
-      </div>
-    </main>
-  )
+export default function page() {
+  return <HomeView />
 }
